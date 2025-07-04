@@ -10,7 +10,7 @@ int main()
 	Nhap(a, b);
 	PhuongTrinh1(a, b);
 }
-void Nhap(int& a, int& b)
+void Nhap(int& aa, int& bb)
 {
 	cin >> a >> b;
 }
