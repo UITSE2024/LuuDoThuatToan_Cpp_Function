@@ -12,12 +12,12 @@ int main()
 	cout << "Gia tri bieu thuc: " << Tong(n) << endl;
 }
 
-int Tong(int n)
+int Tong(int nn)
 {
 	int s = 0;
 	int t = 1;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
 		t *= i;
 		s += i * t;
