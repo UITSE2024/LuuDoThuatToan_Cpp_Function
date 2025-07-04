@@ -35,7 +35,7 @@ void Xuat(float xx, float yy)
 	cout << "Tung do: " << yy << endl;
 }
 
-float KhoangCach(float x1, float y1, float x2, float y2)
+float KhoangCach(float xx1, float yy1, float xx2, float yy2)
 {
-	return sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+	return sqrt((xx2 - xx1) * (xx2 - xx1) + (yy2 - yy1) * (yy2 - yy1));
 }
