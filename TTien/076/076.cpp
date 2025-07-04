@@ -22,15 +22,15 @@ void Nhap(int& nn, float &xx)
 	cin >> xx;
 }
 
-float Tong(int n, float x)
+float Tong(int nn, float xx)
 {
-	float s = 1 + x;
-	float t = x;
+	float s = 1 + xx;
+	float t = xx;
 	int m = 1;
 	int i = 3;
-	while (i <= 2 * n + 1)
+	while (i <= 2 * nn + 1)
 	{
-		t = t * x * x;
+		t = t * xx * xx;
 		m = m * i * (i - 1);
 		s = s + (float)t / m;
 		i = i + 2;
