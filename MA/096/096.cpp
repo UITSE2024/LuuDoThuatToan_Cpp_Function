@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-float CanLuyThua(int n);
+float CanLuyThua(int nn);
 
 int main() {
 	int n;
@@ -14,10 +14,10 @@ int main() {
 	return 0;
 }
 
-float CanLuyThua(int n) {
+float CanLuyThua(int nn) {
 	float s = 0;
 	int t = 1;
-	for (int i = 1; i <= n; i++) {
+	for (int i = 1; i <= nn; i++) {
 		t *= i;
 		s += sqrt(s+t);
 	}

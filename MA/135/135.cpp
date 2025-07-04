@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-bool namNhuan(int n);
+bool namNhuan(int nn);
 
 int main() {
 	int n;
@@ -18,8 +18,8 @@ int main() {
 	return 0;
 }
 
-bool namNhuan(int n) {
-	bool dk1 = (n % 4 == 0) && (n % 100 != 0);
-	bool dk2 = (n % 400 == 0);
+bool namNhuan(int nn) {
+	bool dk1 = (nn % 4 == 0) && (nn % 100 != 0);
+	bool dk2 = (nn % 400 == 0);
 	return dk1 || dk2;
 }

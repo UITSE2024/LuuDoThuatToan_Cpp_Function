@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int TongUocSoNhoHon(int n);
+int TongUocSoNhoHon(int nn);
 
 int main() {
 	int n;
@@ -13,10 +13,10 @@ int main() {
 	return 0;
 }
 
-int TongUocSoNhoHon(int n) {
+int TongUocSoNhoHon(int nn) {
 	int s = 0;
-	for (int i = 1; i < n; i++) {
-		if (n % i == 0) {
+	for (int i = 1; i < nn; i++) {
+		if (nn % i == 0) {
 			s += i;
 		}
 	}

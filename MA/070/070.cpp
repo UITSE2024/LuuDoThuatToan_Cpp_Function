@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-long long TongLuyThuaChan(int n, int x);
+long long TongLuyThuaChan(int nn, int xx);
 
 int main() {
 	int n, x;
@@ -15,10 +15,10 @@ int main() {
 	return 0;
 }
 
-long long TongLuyThuaChan(int n, int x) {
+long long TongLuyThuaChan(int nn, int xx) {
 	long long s = 0;
-	for (int i = 0; i <= 2*n; i += 2) {
-		s += pow(x, i);
+	for (int i = 0; i <= 2*nn; i += 2) {
+		s += pow(xx, i);
 	}
 	return s;
 }

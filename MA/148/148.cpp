@@ -2,20 +2,25 @@
 #include <cmath>
 using namespace std;
 
-void KiemTraSoToanChan(int n);
+bool KiemTraSoToanChan(int nn);
 
 int main() {
 	int n;
 	cout << "Nhap n: ";
 	cin >> n;
-	KiemTraSoToanChan(n);
+	if (KiemTraSoToanChan(n)) {
+		cout << n << " la so toan chan\n";
+	}
+	else {
+		cout << n << " khong phai la so toan chan\n";
+	}
 	cout << "\n\n\n Ket thuc !!!!!\n\n\n";
 	return 0;
 }
 
-void KiemTraSoToanChan(int n) {
+bool KiemTraSoToanChan(int nn) {
 	bool flag = 1;
-	int t = n;
+	int t = nn;
 	while (t != 0)
 	{
 		int dv = t % 10;
@@ -24,10 +29,5 @@ void KiemTraSoToanChan(int n) {
 		}
 		t /= 10;
 	}
-	if (flag) {
-		cout << n << " la so toan chan\n";
-	}
-	else {
-		cout << n << " khong phai la so toan chan\n";
-	}
+	return flag;
 }

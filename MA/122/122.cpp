@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-pair<int,int> TinhDayAB(int n);
+pair<int,int> TinhDayAB(int nn);
 
 int main() {
 	int n;
@@ -15,14 +15,14 @@ int main() {
 	return 0;
 }
 
-pair<int,int> TinhDayAB(int n) {
-	if (n == 1) {
+pair<int,int> TinhDayAB(int nn) {
+	if (nn == 1) {
 		return { 1, 1 };
 	}
 	else
 	{
 		int at = 1, bt = 1;
-		for (int i = 2; i <= n; i++) {
+		for (int i = 2; i <= nn; i++) {
 			int a = 2*at + 3*bt;
 			int b = at + 3 * bt;
 			at = a;

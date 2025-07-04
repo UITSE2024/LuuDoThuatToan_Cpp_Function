@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float Tinhx12(float x);
+float Tinhx12(float xx);
 
 int main() {
 	float x;
@@ -13,8 +13,8 @@ int main() {
 	return 0;
 }
 
-float Tinhx12(float x) {
-	float x2 = x * x;
+float Tinhx12(float xx) {
+	float x2 = xx * xx;
 	float x4 = x2 * x2;
 	float x8 = x4 * x4;
 	return x8 * x4;

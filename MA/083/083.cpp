@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-float tongSinLuyThua(int x, int n);
+float tongSinLuyThua(int xx, int nn);
 
 int main() {
 	float x;
@@ -17,11 +17,11 @@ int main() {
 	return 0;
 }
 
-float tongSinLuyThua(int x, int n) {
+float tongSinLuyThua(int xx, int nn) {
 	float s = 0;
 	long long t = 1;
-	for (int i = 1; i <= n; i++) {
-		t *= x;
+	for (int i = 1; i <= nn; i++) {
+		t *= xx;
 		s += sin(t);
 	}
 	return s;
