@@ -13,10 +13,13 @@ int main()
 
 }
 
-int TinhSoHang(int n)
+int TinhSoHang(int nn)
 {
-	int att = 1, at = 2, i = 2, ahh = 0;
-	while (i <= n)
+	int att = 1;
+	int at = 2;
+	int i = 2;
+	int ahh = 0;
+	while (i <= nn)
 	{
 		ahh = 4 * at + att;
 		i++;
