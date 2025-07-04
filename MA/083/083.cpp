@@ -20,9 +20,11 @@ int main() {
 float tongSinLuyThua(int xx, int nn) {
 	float s = 0;
 	long long t = 1;
-	for (int i = 1; i <= nn; i++) {
+	int i = 1;
+	while (i <= nn) {
 		t *= xx;
-		s += sin(t);
+		s += sin(t); 
+		i++;
 	}
 	return s;
 }

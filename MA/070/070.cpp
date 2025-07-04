@@ -17,8 +17,10 @@ int main() {
 
 long long TongLuyThuaChan(int nn, int xx) {
 	long long s = 0;
-	for (int i = 0; i <= 2*nn; i += 2) {
-		s += pow(xx, i);
-	}
+	int i = 1;
+	while (i <= nn) {
+		s += pow(xx, 2 * i);
+		i++;
+	}	
 	return s;
 }

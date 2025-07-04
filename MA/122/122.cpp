@@ -22,11 +22,13 @@ pair<int,int> TinhDayAB(int nn) {
 	else
 	{
 		int at = 1, bt = 1;
-		for (int i = 2; i <= nn; i++) {
-			int a = 2*at + 3*bt;
+		int i = 2;
+		while (i <= nn) {
+			int a = 2 * at + 3 * bt;
 			int b = at + 3 * bt;
 			at = a;
 			bt = b;
+			i++;
 		}
 		return { at,bt };
 	}

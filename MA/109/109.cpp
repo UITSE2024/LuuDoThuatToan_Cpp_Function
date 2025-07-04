@@ -16,7 +16,7 @@ float Euler() {
 	float s = 1.0f;
 	long long m = 1;
 	int i = 1;
-	while(e >= 10e-6)
+	while(e >= 1e-6)
 	{
 		m = m * i;
 		e = 1.0f / m;

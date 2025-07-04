@@ -17,9 +17,11 @@ int main() {
 float CanLuyThua(int nn) {
 	float s = 0;
 	int t = 1;
-	for (int i = 1; i <= nn; i++) {
+	int i = 1;
+	while (i <= nn) {
 		t *= i;
-		s += sqrt(s+t);
+		s += sqrt(s + t);
+		i++;
 	}
 	return s;
 }

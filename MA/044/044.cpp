@@ -15,8 +15,10 @@ int main() {
 
 float tongNghichDao4(int nn) {
 	float s = 0;
-	for (int i = 1; i <= 2 * nn + 1; i += 2) {
+	int i = 1;
+	while (i <= 2 * nn + 1) {
 		s += 1.0f / (i * (i + 1) * (i + 2) * (i + 3));
+		i += 2;
 	}
 	return s;
 }
