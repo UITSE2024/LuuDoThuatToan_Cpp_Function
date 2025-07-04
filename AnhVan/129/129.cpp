@@ -7,6 +7,7 @@ void Xuat(float, float, float);
 int main()
 {
 	float a, b, c;
+	cout << "Nhap a, b, c: ";
 	cin >> a >> b >> c;
 	cout << "Truoc khi xep tang: ";
 	Xuat(a, b, c);
@@ -17,31 +18,31 @@ int main()
 
 }
 
-void XepTangDan(float& a, float& b, float& c)
+void XepTangDan(float& aa, float& bb, float& cc)
 {
-	if (a > b)
+	if (aa > bb)
 	{
-		int temp = a;
-		a = b;
-		b = temp;
+		int temp = aa;
+		aa = bb;
+		bb = temp;
 	}
-	else if (a > c)
+	else if (aa > cc)
 	{
-		int temp = a;
-		a = c;
-		c = temp;
+		int temp = aa;
+		aa = cc;
+		cc = temp;
 	}
-	else if (b > c)
+	else if (bb > cc)
 	{
-		int temp = b;
-		b = c;
-		c = temp;
+		int temp = bb;
+		bb = cc;
+		cc = temp;
 	}
 }
 
-void Xuat(float a, float b, float c)
+void Xuat(float aa, float bb, float cc)
 {
-	cout << "\na = " << a;
-	cout << "\nb = " << b;
-	cout << "\nc = " << c;
+	cout << "\na = " << aa;
+	cout << "\nb = " << bb;
+	cout << "\nc = " << cc;
 }
