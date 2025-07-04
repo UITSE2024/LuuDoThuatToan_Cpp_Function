@@ -15,12 +15,12 @@ int main()
 	return 0;
 }
 
-void tinhGiaTri(int n)
+void tinhGiaTri(int nn)
 {
 	int at = 2;
 	int bt = 1;
 
-	for (int i = 2; i <= n; ++i)
+	for (int i = 2; i <= nn; ++i)
 	{
 		int ahh = at * at + 2 * bt * bt;
 		int bhh = 2 * at * at;

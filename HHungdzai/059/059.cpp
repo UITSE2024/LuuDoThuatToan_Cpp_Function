@@ -15,11 +15,11 @@ int main()
 	return 0;
 }
 
-int demSoLuong(int n)
+int demSoLuong(int nn)
 {
 	int dem = 0;
 
-	int t = n;
+	int t = nn;
 
 	while (t != 0)
 	{

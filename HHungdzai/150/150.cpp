@@ -38,12 +38,12 @@ int UCLN(int a, int b)
 
 }
 
-int BCNN(int a, int b)
+int BCNN(int aa, int bb)
 {
 
-	int gcd = UCLN(a, b);
+	int gcd = UCLN(aa, bb);
 
-	return abs(a * b) / gcd;
+	return abs(aa * bb) / gcd;
 }
 
 

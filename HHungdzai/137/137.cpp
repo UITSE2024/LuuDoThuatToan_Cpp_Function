@@ -15,11 +15,11 @@ int main()
 	return 0;
 }
 
-void tinhGiaTri(int x)
+void tinhGiaTri(int xx)
 {
-	if (x >= 5)
-		cout << 2 * x * x + 5 * x + 9;
+	if (xx >= 5)
+		cout << 2 * xx * xx + 5 * xx + 9;
 	else
-		cout << -2 * x * x + 4 * x - 9;
+		cout << -2 * xx * xx + 4 * xx - 9;
 
 }

@@ -17,12 +17,12 @@ int main() {
 	return 0;
 }
 
-float tinhBieuThuc(int n)
+float tinhBieuThuc(int nn)
 {
 	float s = 0;
 	int m = 0;
 
-	for (int i = 1; i <= n; ++i)
+	for (int i = 1; i <= nn; ++i)
 	{
 		m += i;
 		s += 1.0 / m;

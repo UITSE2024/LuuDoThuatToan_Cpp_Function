@@ -25,14 +25,14 @@ void Nhap(float& x, int& n)
 	cout << "Nhap vao n: "; cin >> n;
 }
 
-float tinhBieuThuc(float x, int n)
+float tinhBieuThuc(float xx, int nn)
 {
 	float s = 0, t = 1;
 	int dau = 1;
 
-	for (int i = 1; i <= n; ++i)
+	for (int i = 1; i <= nn; ++i)
 	{
-		t *= x;
+		t *= xx;
 		s += dau * t;
 		dau = -dau;
 	}

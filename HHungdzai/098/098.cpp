@@ -16,10 +16,10 @@ int main()
 	return 0;
 }
 
-float tinhBieuThuc(int n)
+float tinhBieuThuc(int nn)
 {
 	float s = 0;
-	for (int i = 2; i <= n; ++i)
+	for (int i = 2; i <= nn; ++i)
 	{
 		s += pow(i + s, 1.0/i);
 	}

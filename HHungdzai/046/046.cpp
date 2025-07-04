@@ -18,11 +18,11 @@ int main() {
 	return 0;
 }
 
-float tinhBieuThuc(int n)
+float tinhBieuThuc(int nn)
 {
 	float s = 0;
 
-	for (int i = 1; i <= n; ++i)
+	for (int i = 1; i <= nn; ++i)
 	{
 		s += (float)1 / ((i + 1) * sqrt(i) + i * sqrt(i + 1));
 	}

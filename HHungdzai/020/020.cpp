@@ -18,9 +18,9 @@ int main()
 	return 0;
 }
 
-float tinhX14(float x)
+float tinhX14(float xx)
 {
-	float x2 = x * x;
+	float x2 = xx * xx;
 	float x4 = x2 * x2;
 	float x6 = x4 * x2;
 	float x8 = x4 * x4;
