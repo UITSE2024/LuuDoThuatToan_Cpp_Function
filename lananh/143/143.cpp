@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-bool isPerfectNum(int n)
+bool isPerfectNum(int nn)
 {
 	int s = 0;
 	int i = 1;
-	while (i < n)
+	while (i < nn)
 	{
-		if (n % i == 0)
+		if (nn % i == 0)
 			s += i;
 		i++;
 	}
-	if (s == n)
+	if (s == nn)
 		return true;
 	return false;
 }
