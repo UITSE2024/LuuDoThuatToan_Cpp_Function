@@ -14,16 +14,16 @@ int main()
 	cout << "Gia tri bieu thuc: " << Tong(x, n) << endl;
 }
 
-float Tong(int x, int n)
+float Tong(int xx, int nn)
 {
-	float s = 1 - x;
-	int t = x;
+	float s = 1 - xx;
+	int t = xx;
 	int m = 1;
 	int i = 3;
 	int dau = 1;
-	while (i <= 2 * n + 1)
+	while (i <= 2 * nn + 1)
 	{
-		t *= x * x;
+		t *= xx * xx;
 		m *= i * (i - 1);
 		s += dau * (float)t / m;
 		i += 2;
