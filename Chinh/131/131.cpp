@@ -16,21 +16,21 @@ int main()
 		cout << "Khong la tam giac.";
 }
 
-void Nhap(float&x1, float& y1, float& x2, float& y2,float& x3,float& y3)
+void Nhap(float&xx1, float& yy1, float& xx2, float& yy2,float& xx3,float& yy3)
 {
 	cout << "Nhap dinh a: ";
-	cin >> x1 >> y1;
+	cin >> xx1 >> yy1;
 	cout << "Nhap dinh b: ";
-	cin >> x2 >> y2;
+	cin >> xx2 >> yy2;
 	cout << "Nhap dinh c: ";
-	cin >> x3 >> y3;
+	cin >> xx3 >> yy3;
 }
 
-bool KtTamGiac(float x1, float y1, float x2, float y2, float x3, float y3)
+bool KtTamGiac(float xx1, float yy1, float xx2, float yy2, float xx3, float yy3)
 {
-	float a = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
-	float b = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) * (y3 - y1));
-	float c = sqrt((x3 - x2) * (x3 - x2) + (y3 - y2) * (y3 - y2));
+	float a = sqrt((xx2 - xx1) * (xx2 - xx1) + (yy2 - yy1) * (yy2 - yy1));
+	float b = sqrt((xx3 - xx1) * (xx3 - xx1) + (yy3 - yy1) * (yy3 - yy1));
+	float c = sqrt((xx3 - xx2) * (xx3 - xx2) + (yy3 - yy2) * (yy3 - yy2));
 	if (a + b > c && a + c > b && b + c > a)
 		return true;
 	else
