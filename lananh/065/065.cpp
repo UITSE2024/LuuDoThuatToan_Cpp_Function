@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int chusonhonhat(int n)
+int chusonhonhat(int nn)
 {
-    int lc = n % 10;
-    int t = n;
+    int lc = nn % 10;
+    int t = nn;
     while (t != 0)
     {
         int dv = t % 10;
