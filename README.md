@@ -51,3 +51,9 @@
   
   + Lan Anh 13, 26, 39, 52, 65, 78, 91, 104, 117, 130, 143
   
+- List review: Chọn 3 người trên mình để review, ví dụ như Đại Hưng thì chọn 3 người là Huỳnh Hưng, Phú Quý, Minh Anh để review.
+  + Các bước Add Reviewers:
+    1. Sau khi tạo pull request, vào phần PR của mình.
+    2. Qua reviewers chọn những người review theo ds trên.
+    3. Qua phần thông báo để accept để review bài người khác.
+    4. Chỉ push sau khi được approved bởi CẢ 3 reviewers.
