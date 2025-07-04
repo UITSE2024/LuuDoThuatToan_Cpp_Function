@@ -24,7 +24,7 @@ float Tong(float xx, int nn)
 	while (i <= nn)
 	{
 		t = t * xx;
-		s = pow(t + s, 0.5);
+		s = sqrt(t + s);
 		i = i + 1;
 	}
 	return s;
