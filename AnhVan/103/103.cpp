@@ -1,18 +1,15 @@
 #include <iostream>
 using namespace std;
 
-float Tinh(int);
+float Tinh();
 
 int main()
 {
-	int n;
-	cout << "Nhap n: ";
-	cin >> n;
-	cout << "S(n) = " << Tinh(n);
+	cout << "S(n) = " << Tinh();
 	return 0;
 }
 
-float Tinh(int n)
+float Tinh()
 {
 	float s = 0, e = 1;
 	int i = 1;
