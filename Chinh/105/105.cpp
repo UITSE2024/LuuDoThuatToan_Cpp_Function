@@ -13,7 +13,7 @@ int main()
 	cout << "Gia tri bieu thuc: " << Tong(n) << endl;
 }
 
-float Tong(int)
+float Tong(int n)
 {
 	float s = 0;
 	int m = 0;
