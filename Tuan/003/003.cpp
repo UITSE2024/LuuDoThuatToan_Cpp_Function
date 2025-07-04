@@ -14,7 +14,7 @@ int main()
 	return 0;
 }
 
-float TinhChuVi(float r)
+float TinhChuVi(float rr)
 {
-	return 2 * 3.14 * r;
+	return 2 * 3.14 * rr;
 }

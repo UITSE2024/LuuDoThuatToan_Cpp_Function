@@ -14,13 +14,13 @@ int main()
 	return 0;
 }
 
-int TinhTich(int n)
+int TinhTich(int nn)
 {
 	int t = 1;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
-		if (n % i == 0)
+		if (nn % i == 0)
 			t = t * i;
 		i = i + 2;
 	}

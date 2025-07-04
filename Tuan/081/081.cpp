@@ -16,14 +16,14 @@ int main()
 	return 0;
 }
 
-float TinhTong(int x, int n)
+float TinhTong(int xx, int nn)
 {
 	float s = 0;
 	int m = 1;
 	int i = 0;
-	while (i <= n)
+	while (i <= nn)
 	{
-		m = m * (x + i);
+		m = m * (xx + i);
 		s = s + 1.0 / m;
 		i = i + 1;
 	}

@@ -14,12 +14,12 @@ int main()
 	return 0;
 }
 
-int TinhTong(int n)
+int TinhTong(int nn)
 {
 	int s = 0;
 	int t = 1;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
 		t = t * i;
 		s = s + t;
