@@ -12,9 +12,9 @@ int main()
 	return 0;
 }
 
-int SoDaoNguoc(int n)
+int SoDaoNguoc(int nn)
 {
-	int dn = 0, t = n;
+	int dn = 0, t = nn;
 	while (t)
 	{
 		int dv = t % 10;
