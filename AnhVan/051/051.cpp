@@ -12,11 +12,11 @@ int main()
 	return 0;
 }
 
-long TichUocSo(int n)
+long TichUocSo(int nn)
 {
 	long t = 1;
-	for (int i = 1; i <= n; i++)
-		if (n % i == 0)
+	for (int i = 1; i <= nn; i++)
+		if (nn % i == 0)
 			t = t * i;
 	return t;
 }
