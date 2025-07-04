@@ -15,10 +15,10 @@ int main()
 		cout << "Khong ton tai.";	
 }
 
-bool KtTonTai(int n)
+bool KtTonTai(int nn)
 {
 	int flag = 0;
-	int t = n;
+	int t = nn;
 	while (t != 0)
 	{
 		int dv = t % 10;
