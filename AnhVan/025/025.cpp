@@ -18,23 +18,23 @@ int main()
 	Xuat(a, b);
 }
 
-void Nhap(int& a, int& b)
+void Nhap(int& aa, int& bb)
 {
 	cout << "Nhap a: ";
-	cin >> a;
+	cin >> aa;
 	cout << "Nhap b: ";
-	cin >> b;
+	cin >> bb;
 }
 
-void HoanVi(int& a, int& b)
+void HoanVi(int& aa, int& bb)
 {
-	int temp = a;
-	a = b;
-	b = temp;
+	int temp = aa;
+	aa = bb;
+	bb = temp;
 }
 
-void Xuat(int a, int b)
+void Xuat(int aa, int bb)
 {
-	cout << "\na = " << a;
-	cout << "\nb = " << b << endl;
+	cout << "\na = " << aa;
+	cout << "\nb = " << bb << endl;
 }
