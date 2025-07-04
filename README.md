@@ -1,4 +1,4 @@
-# Project: Làm 153 bài lưu đổ thuật toán bằng lập trình hàm
+# Project: Làm 153 bài lưu đồ thuật toán bằng lập trình hàm
 # Một số lưu ý lại
 
 - Để tránh conflicts thì mình sẽ làm theo một cách là mỗi một người sẽ tự tạo cho mình 1 branch, và trong branch đó mọi người tạo một folder có tên là tên của mình. Trong folder này mình tạo Solution rồi hoàn thành assignment.
