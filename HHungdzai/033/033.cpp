@@ -1,0 +1,30 @@
+#include<iostream>
+
+using namespace std;
+
+float tinhBieuThuc(int);
+
+int main() {
+
+	int n;
+	cout << "Nhap vao n: "; cin >> n;
+
+	float res = tinhBieuThuc(n);
+
+	cout << "Gia tri bieu thuc: " << res;
+
+	cout << "\n\n\nKet thuc!!!!!\n\n\n";
+	return 0;
+}
+
+float tinhBieuThuc(int n)
+{
+	float s = 0;
+	
+	for (int i = 1; i <= n; ++i)
+	{
+		s += (float)i / (i + 1);
+	}
+
+	return s;
+}
