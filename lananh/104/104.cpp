@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float tinhS(int n)
+float tinhS(int nn)
 {
 	float s = 0;
 	float e = 0.5;
