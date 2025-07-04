@@ -15,9 +15,11 @@ int main()
 float Tinh(int n)
 {
     float s = 0;
-    for (int i = 2; i <= 2 * n; i = i + 2)
+    int i = 2;
+    while (i <= 2 * n)
     {
-        s = s + (float)1 / i;
+        s = s + 1.0f / i;
+        i = i + 2;
     }
     return s;
 }
