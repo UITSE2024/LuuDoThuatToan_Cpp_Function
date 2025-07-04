@@ -12,10 +12,10 @@ int main()
 	return 0;
 }
 
-int ChuSoLonNhat(int n)
+int ChuSoLonNhat(int nn)
 {
-	int lc = n % 10;
-	int t = n;
+	int lc = nn % 10;
+	int t = nn;
 	while (t)
 	{
 		int dv = t % 10;
