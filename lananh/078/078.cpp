@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-float tinhS(float x, int n)
+float tinhS(float xx, int nn)
 {
     float s = 1;
     float t = 1;
     int i = 1;
-    while (i <= n)
+    while (i <= nn)
     {
-        t = t * x;
+        t = t * xx;
         s = s + t;
         i++;
     }
