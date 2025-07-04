@@ -15,13 +15,13 @@ int main()
 		cout << "Khong la so nguyen to.";
 }
 
-bool KtNguyenTo(int n)
+bool KtNguyenTo(int nn)
 {
 	int dem = 0;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
-		if (n % i == 0)
+		if (nn % i == 0)
 			dem++;
 		i++;
 	}
