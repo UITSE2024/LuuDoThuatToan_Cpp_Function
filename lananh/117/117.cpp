@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-float sohangthu(int n)
+float sohangthu(int nn)
 {
 	float att = -1;
 	float at = 3;
 	int t = 2;
 	int i = 2;
 	float ahh;
-	while (i <= n)
+	while (i <= nn)
 	{
 		t = t * 2;
 		ahh = 5 * t + 5 * at - att;
