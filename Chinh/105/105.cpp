@@ -2,18 +2,14 @@
 #include <cmath>
 using namespace std;
 
-float Tong(int);
+float Tong();
 
 int main()
 {
-	int n;
-	cout << "Nhap n: ";
-	cin >> n;
-
-	cout << "Gia tri bieu thuc: " << Tong(n) << endl;
+	cout << "Gia tri bieu thuc: " << Tong() << endl;
 }
 
-float Tong(int n)
+float Tong()
 {
 	float s = 0;
 	int m = 0;
