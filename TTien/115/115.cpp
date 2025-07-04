@@ -34,6 +34,7 @@ int TinhAn(int nn)
 			ahh = 5 * at + 6 * att;
 			i++;
 			att = at;
+			at = ahh;
 		}
 	return ahh;
 }
