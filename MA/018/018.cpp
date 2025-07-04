@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float Tinhx12(float xx);
+float Tinhx12(float);
 
 int main() {
 	float x;

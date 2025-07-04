@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-float CanLuyThua(int nn);
+float CanLuyThua(int );
 
 int main() {
 	int n;

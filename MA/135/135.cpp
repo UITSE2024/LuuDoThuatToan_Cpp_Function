@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-bool namNhuan(int nn);
+bool namNhuan(int);
 
 int main() {
 	int n;

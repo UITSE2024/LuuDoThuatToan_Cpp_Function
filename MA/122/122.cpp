@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-pair<int,int> TinhDayAB(int nn);
+pair<int,int> TinhDayAB(int);
 
 int main() {
 	int n;

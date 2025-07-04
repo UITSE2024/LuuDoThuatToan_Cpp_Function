@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int TongUocSoNhoHon(int nn);
+int TongUocSoNhoHon(int);
 
 int main() {
 	int n;

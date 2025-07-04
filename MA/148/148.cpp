@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-bool KiemTraSoToanChan(int nn);
+bool KiemTraSoToanChan(int);
 
 int main() {
 	int n;

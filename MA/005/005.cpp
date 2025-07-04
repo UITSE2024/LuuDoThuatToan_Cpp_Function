@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float TheTichHinhCau(float rr);
+float TheTichHinhCau(float);
 
 int main() {
 	float r;

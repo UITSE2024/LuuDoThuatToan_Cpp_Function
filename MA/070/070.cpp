@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-long long TongLuyThuaChan(int nn, int xx);
+long long TongLuyThuaChan(int,int);
 
 int main() {
 	int n, x;

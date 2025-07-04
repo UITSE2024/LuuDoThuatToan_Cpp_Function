@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float tongNghichDao4(int nn);
+float tongNghichDao4(int);
 
 int main() {
 	int n;

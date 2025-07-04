@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-float tongSinLuyThua(int xx, int nn);
+float tongSinLuyThua(int, int);
 
 int main() {
 	float x;
