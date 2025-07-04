@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -19,7 +19,7 @@ float Tinh(int n)
 
     while (i <= n)
     {
-        s += 1.0 / (i * (i + 1) * (i + 2));
+        s = s + 1.0f / (i * (i + 1) * (i + 2));
         i = i + 1;
     }
 
