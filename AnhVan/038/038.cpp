@@ -12,10 +12,10 @@ int main()
 	return 0;
 }
 
-long TongLuyThua(int n)
+long TongLuyThua(int nn)
 {
 	long s = 0;
-	for (int i = 1;i <= n;i++)
+	for (int i = 1; i <= nn; i++)
 		s = s + i * i * i * i;
 	return s;
 }
