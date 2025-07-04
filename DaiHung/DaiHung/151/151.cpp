@@ -32,6 +32,5 @@ int ktDang2m(int nn)
 			flag = 0;
 		t = t / 2;
 	}
-
 	return flag;
 }
