@@ -12,12 +12,12 @@ int main()
 	XuatUocLe(n);
 }
 
-void XuatUocLe(int n)
+void XuatUocLe(int nn)
 {
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
-		if (n % i == 0)
+		if (nn % i == 0)
 			cout << i << " ";
 		i += 2;
 	}
