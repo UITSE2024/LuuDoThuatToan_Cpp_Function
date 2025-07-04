@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-float Tinhtong(int n)
+float Tinhtong(int nn)
 {
 	float t = 1;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
 		t = t * (1 + 1 / (i * i));
 		i = i + 1;
