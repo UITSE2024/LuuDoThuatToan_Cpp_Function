@@ -9,7 +9,8 @@ int main()
 {
     float x, n;
     cin >> x >> n;
-    cout << Tinh(x, n);
+    int s = Tinh(x, n);
+    cout << s;
     return 0;
 }
 

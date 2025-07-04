@@ -8,7 +8,8 @@ int main()
 {
     int n;
     cin >> n;
-    cout << DemSoUocChan(n);
+    int dem = DemSoUocChan(n);
+    cout << dem;
     return 0;
 }
 

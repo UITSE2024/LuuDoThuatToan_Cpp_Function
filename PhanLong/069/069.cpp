@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -10,7 +9,8 @@ int main()
     int n;
     int x;
     cin >> n >> x;
-    cout << Tinh(x, n);
+    int s = Tinh(x, n);
+    cout << s;
     return 0;
 }
 

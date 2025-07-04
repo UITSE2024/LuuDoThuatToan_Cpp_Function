@@ -8,8 +8,8 @@ int main()
 {
     int x;
     cin >> x;
-    
-    cout << TinhEX(x);
+    float ex = TinhEX(x);
+    cout << ex;
     return 0;
 }
 

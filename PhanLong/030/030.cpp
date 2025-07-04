@@ -8,7 +8,8 @@ int main()
 {
     int n;
     cin >> n;
-    cout << Tinh(n);
+    int s = Tinh(n);
+    cout << s;
     return 0;
 }
 

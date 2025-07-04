@@ -10,7 +10,6 @@ int main()
 {
     float r;
     cin >> r;
-
     float s = TinhDienTichXungQuanh(r);
     cout << s;
 }

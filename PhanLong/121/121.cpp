@@ -2,17 +2,18 @@
 
 using namespace std;
 
-int Tinh(int n);
+int Fibonacci(int n);
 
 int main()
 {
     int n;
     cin >> n;
-    cout << Tinh(n);
+    int ahh = Fibonacci(n);
+    cout << ahh;
     return 0;
 }
 
-int Tinh(int n)
+int Fibonacci(int n)
 {
     int att = 1;
     int at = 1;
