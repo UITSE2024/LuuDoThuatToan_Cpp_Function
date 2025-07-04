@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-float Tinhx7(float x) {
-	float x2 = x * x;
+float Tinhx7(float xx) {
+	float x2 = xx * xx;
 	float x4 = x2 * x2;
 	float x8 = x4 * x4;
-	float x7 = x8 / x;
+	float x7 = x8 / xx;
 	return x7;
 }
 
