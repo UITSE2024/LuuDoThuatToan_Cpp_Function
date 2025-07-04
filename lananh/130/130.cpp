@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-bool ktTamGiac(int x, int y, int z)
+bool ktTamGiac(int xx, int yy, int zz)
 {
-	if (x + y > z && x + z > y && y + z > x)
+	if (xx + yy > zz && xx + zz > yy && yy + zz > xx)
 		return true;
 	return false;
 }
