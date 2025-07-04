@@ -3,7 +3,7 @@
 
 using namespace std;
 
-float Tinh(int n);
+float Tinh(int nn);
 
 int main()
 {
@@ -14,10 +14,10 @@ int main()
     return 0;
 }
 
-float Tinh(int n)
+float Tinh(int nn)
 {
     float s = 0;
-    int i = n;
+    int i = nn;
     while (i > 0)
     {
         s = sqrt(i + s);

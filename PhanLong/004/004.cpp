@@ -4,7 +4,7 @@
 
 using namespace std;
 
-float TinhDienTichXungQuanh(float);
+float TinhDienTichXungQuanh(float rr);
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     cout << s;
 }
 
-float TinhDienTichXungQuanh(float r)
+float TinhDienTichXungQuanh(float rr)
 {
-    return 4 * M_PI * r * r;
+    return 4 * M_PI * rr * rr;
 }

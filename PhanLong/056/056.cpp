@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int DemSoUocChan(int n);
+int DemSoUocChan(int nn);
 
 int main()
 {
@@ -13,14 +13,14 @@ int main()
     return 0;
 }
 
-int DemSoUocChan(int n)
+int DemSoUocChan(int nn)
 {
     int dem = 0;
     int i = 2;
 
-    while (i <= n)
+    while (i <= nn)
     {
-        if (n % i == 0)
+        if (nn % i == 0)
             dem = dem + 1;
         i = i + 2;
     }

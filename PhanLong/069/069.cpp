@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int Tinh(int x, int n);
+int Tinh(int xx, int nn);
 
 int main()
 {
@@ -14,14 +14,14 @@ int main()
     return 0;
 }
 
-int Tinh(int x, int n)
+int Tinh(int xx, int nn)
 {
     int t = 1;
     int s = 0;
     int i = 1;
-    while (i <= n)
+    while (i <= nn)
     {
-        t = t * x;
+        t = t * xx;
         s = s + t;
         i = i + 1;
     }

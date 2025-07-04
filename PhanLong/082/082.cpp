@@ -3,7 +3,7 @@
 
 using namespace std;
 
-float Tinh(int x, int n);
+float Tinh(int xx, int nn);
 
 int main()
 {
@@ -14,14 +14,14 @@ int main()
     return 0;
 }
 
-float Tinh(int x, int n)
+float Tinh(int xx, int nn)
 {
     float s = 0;
     float t = 1;
     float i = 1;
-    while (i <= n)
+    while (i <= nn)
     {
-        t = t * sin(x);
+        t = t * sin(xx);
         s = s + t;
         i = i + 1;
     }

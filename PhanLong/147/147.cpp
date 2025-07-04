@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool KiemTraToanLe(int n);
+bool KiemTraToanLe(int nn);
 
 int main()
 {
@@ -17,10 +17,10 @@ int main()
     return 0;
 }
 
-bool KiemTraToanLe(int n)
+bool KiemTraToanLe(int nn)
 {
     int flag = 1;
-    int  t = n;
+    int  t = nn;
     
     while (t != 0)
     {

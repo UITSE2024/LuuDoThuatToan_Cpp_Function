@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float TinhX11(float x);
+float TinhX11(float xx);
 
 int main()
 {
@@ -13,12 +13,12 @@ int main()
     return 0;
 }
 
-float TinhX11(float x)
+float TinhX11(float xx)
 {
-    float x2 = x * x;
+    float x2 = xx * xx;
     float x4 = x2 * x2;
     float x8 = x4 * x4;
     float x10 = x8 * x2;
-    float x11 = x10 * x;
+    float x11 = x10 * xx;
     return x11;
 }

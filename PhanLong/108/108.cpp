@@ -2,7 +2,7 @@
 
 using namespace std;
 
-float TinhEX(int x);
+float TinhEX(int xx);
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-float TinhEX(int x)
+float TinhEX(int xx)
 {
     float s = 1;
     float e = 1.0f;
@@ -22,7 +22,7 @@ float TinhEX(int x)
     int i = 1;
     while (e >= 1e-6)
     {
-        t = t * x;
+        t = t * xx;
         m = m * i;
         e = (float)t / m;
         s = s + e;
